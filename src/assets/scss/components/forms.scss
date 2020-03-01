@@ -1,0 +1,57 @@
+
+.dog-form {
+  &__select {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid $base-theme-darken-02;
+    outline: none;
+    color: $base-theme-darken-02;
+    height: 3rem;
+    line-height: 3rem;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0 0 8px 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    opacity: 1;
+    transition: opacity 1s;
+
+    &--disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+  }
+
+  &__button {
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 16px;
+    text-decoration: none;
+    color: #fff;
+    background-color: $base-theme-darken-03;
+    text-align: center;
+    letter-spacing: .5px;
+    transition: .3s ease-out;
+    @include depth-02;
+
+    &--disabled {
+      opacity: .5;
+      pointer-events: none;
+    }
+  }
+
+  &__button:hover {
+    background-color: $base-theme-darken-02;
+    @include depth-03;
+  }
+
+
+}

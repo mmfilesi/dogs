@@ -1,0 +1,26 @@
+.message {
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  @include depth-04;
+
+  &--error {
+    color: $danger;
+    border: 1px solid $danger;
+  }
+
+  &--warning {
+    color: $warning;
+    border: 1px solid $warning;
+  }
+
+  &--info {
+    color: $info;
+    border: 1px solid $info;
+  }
+
+  &--success {
+    color: $success;
+    border: 1px solid $success;
+  }
+}

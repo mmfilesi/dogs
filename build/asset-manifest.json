@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8232a342.chunk.css",
+    "main.js": "/static/js/main.827cfdf4.chunk.js",
+    "main.js.map": "/static/js/main.827cfdf4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.764eb8d0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.764eb8d0.js.map",
+    "static/js/2.d622ae99.chunk.js": "/static/js/2.d622ae99.chunk.js",
+    "static/js/2.d622ae99.chunk.js.map": "/static/js/2.d622ae99.chunk.js.map",
+    "static/js/3.67a4f9ec.chunk.js": "/static/js/3.67a4f9ec.chunk.js",
+    "static/js/3.67a4f9ec.chunk.js.map": "/static/js/3.67a4f9ec.chunk.js.map",
+    "static/js/4.b6fec181.chunk.js": "/static/js/4.b6fec181.chunk.js",
+    "static/js/4.b6fec181.chunk.js.map": "/static/js/4.b6fec181.chunk.js.map",
+    "static/js/5.f9a270ab.chunk.js": "/static/js/5.f9a270ab.chunk.js",
+    "static/js/5.f9a270ab.chunk.js.map": "/static/js/5.f9a270ab.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.7f86299902ae16d6a8ad8cce0958377a.js": "/precache-manifest.7f86299902ae16d6a8ad8cce0958377a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.8232a342.chunk.css.map": "/static/css/main.8232a342.chunk.css.map",
+    "static/media/index.scss": "/static/media/Spartan-SemiBold.e9dfc76a.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.764eb8d0.js",
+    "static/js/2.d622ae99.chunk.js",
+    "static/css/main.8232a342.chunk.css",
+    "static/js/main.827cfdf4.chunk.js"
+  ]
+}

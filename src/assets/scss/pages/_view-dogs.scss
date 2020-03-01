@@ -1,0 +1,70 @@
+.view-dogs {
+
+  .dog-select {
+    &__container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex-flow: nowrap;
+    }
+
+    &__item {
+      margin: 1rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .dog-select__container {
+      flex-flow: wrap;
+    }
+  }
+
+  .container-dog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .card-dog {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    @include depth-02;
+    transition: .3s ease-out;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+
+    &:hover {
+      @include depth-03;
+      background-color: $base-theme-lighten-02;
+      transform: rotate(2deg);
+    }
+
+    &__preload {
+      background:rgb(255,249,249);
+      background: linear-gradient(90deg, rgba(255,249,249,1) 0%, rgba(236,236,236,0.7791491596638656) 67%, rgba(244,244,244,1) 100%);
+      transition: .3s ease-out;
+    }
+
+    &__figure {
+      width: 280px;
+      height: 280px;
+      overflow: hidden;
+    }
+
+    &__image {
+      &--horizontal {
+        width: 280px;
+        height: auto;
+      }
+      &--vertical {
+        width: auto;
+        height: 280px;
+      }
+    }
+  }
+}
